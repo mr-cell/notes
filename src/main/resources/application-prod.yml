@@ -1,0 +1,6 @@
+spring:
+  jpa.hibernate.ddl-auto: update
+  datasource:
+    driver-class-name: com.amazonaws.secretsmanager.sql.AWSSecretsManagerMySQLDriver
+    url: jdbc-secretsmanager:mysql://notes-db.cc2ehglarv2c.eu-central-1.rds.amazonaws.com:3306/notes
+    username: prod/notes/rds

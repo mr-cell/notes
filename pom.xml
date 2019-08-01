@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<aws-secretsmanager-jdbc.version>1.0.2</aws-secretsmanager-jdbc.version>
 	</properties>
 
 	<dependencies>
@@ -30,6 +31,16 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.amazonaws.secretsmanager</groupId>
+			<artifactId>aws-secretsmanager-jdbc</artifactId>
+			<version>${aws-secretsmanager-jdbc.version}</version>
 		</dependency>
 
 		<dependency>

@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @Entity
 public class Note {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String title;
     private String body;
